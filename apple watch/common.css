@@ -1,0 +1,331 @@
+*{ 
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+#shopp-apple{
+    position: relative;
+    width: 1519px;
+    height: 4000px;
+    background-color: whitesmoke;
+}
+#main-menu{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 57px;
+    background-color: black;
+    margin-bottom: 4%;
+}
+#main-menu li { 
+    padding-top: 0.9%;
+    display: inline-block;
+    padding-left: 3%;
+    text-decoration: none;
+}
+#main-menu li a {
+    transition: all 0.3s ease-in-out;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(157, 159, 160);
+}
+
+#main-icon{
+    font-size: 130%;
+}
+#main-menu li :hover{
+    color: white;
+}
+#banner{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 400px 167px ;
+    margin: auto;
+    width: 70%;
+    height: 120px;
+    grid-column-gap: 40%;
+}
+#banner-left{
+    font-size: 250%;
+    color: rgb(143, 143, 143);
+}
+#banner-right{
+    display: grid;
+    grid-template-rows: auto;
+    grid-column-gap: -10%;
+}
+#product-1{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+   border-radius: 20px;
+}
+#product-2{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+   border-radius: 20px;
+}
+#product-3{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+   border-radius: 20px;
+}
+#product-4{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+   border-radius: 20px;
+}
+#product-5{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+   border-radius: 20px;
+}
+#product-6{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#product-7{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#apple-watch1{
+    height: 600px;
+    overflow-x: hidden;
+    overflow-x: scroll ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+#apple-watch1::-webkit-scrollbar { 
+    display: none; 
+}
+#apple-watch1 ul {
+    box-shadow: 0 0 5px 5px  rgb(224, 222, 222);
+}
+#apple-watch1 ul {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+#apple-watch1 :hover{ 
+    transform: scale(102%);
+    box-shadow: 10px  rgb(160, 159, 159); 
+}
+#pp{
+    width: 100%;
+    height:100px;
+}
+#banner1{
+    height: 500px;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    grid-column-gap: 30px;
+}
+#pic-1{
+    margin: auto;
+}
+#pic-2{
+    margin: auto;
+}
+#select-item{ 
+    padding-left: 70px;
+    padding-top: 20px;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap:30px;
+}
+#select-item ul{
+    transition: all 0.3s ease-in-out;
+}
+#select-item ul:hover{
+    transform: scale(102%);
+}
+#apple-watch2{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#ap-right{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+#ap1{
+    border-radius: 20px;
+    width: 400px;
+}
+#ap2{
+    border-radius: 20px;
+    width: 400px;
+}
+#apple-watch2 ul {
+    transition: all 0.3 ease-in-out;
+}
+#apple-watch2 ul :hover{
+    transform: scale(102%);
+}
+#ap3{
+    margin-top: 7%;
+    margin-left: 15%;
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#apple-watch3{
+    padding-left: 70px;
+    width: 100%;
+    padding-top: 100px;
+    margin: auto;
+    width: 500px;
+}
+#ref{
+    padding-left: 45px;
+    margin: auto;
+    width: 80%;
+    height: 3px;
+    border: solid 1px rgb(129, 126, 126);
+    background-color: rgb(129, 126, 126);
+}
+#text{
+    padding-top: 70px;
+    text-align: center;
+}
+#pp2{
+    height: 100px;
+}
+#watch{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px ;
+}
+
+    
+#pic-apple-product{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#tittlesr7-product{
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+}
+#tittlesr-right{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+}
+#tittlesr-left{
+    margin: auto    ;
+}
+#pic-product1{
+    margin-bottom: 20px;
+}
+#tittlesr7-product2{
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+    height: 700px;
+   margin: auto;
+    text-align: center;
+}
+#bag{ 
+    width: 329px;
+    height: 421px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 1px rgb(188, 188, 188);
+}
+#intersection{
+    width: 0;
+    height: 0;
+    margin-left: 150px;
+    border-bottom: 14px solid #fdfcfc;
+    border-left: 7px solid transparent  ;
+    border-right: 7px solid transparent;
+}
+#bag-main{
+    margin-top: 10px;
+    margin-left: 58.8%;
+   box-sizing: border-box;
+   position: absolute;
+   display: none;
+}
+#shopp-apple2{
+    height: 4500px;
+}
+/* ipad */
+@media(max-width: 768px){
+
+}
+#hide-main{
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+body{
+    position: relative;
+}
+#hide-main-left{
+   
+    background-color: rgb(139, 27, 27);
+    height: 100%;
+}
+#hide-main-right{
+    fill-opacity: 1;
+    background-color: #c0a820  ;
+}
